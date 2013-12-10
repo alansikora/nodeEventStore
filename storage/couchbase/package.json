@@ -1,0 +1,32 @@
+{
+  "author": "Alan Sikora",
+  "name": "eventstore.couchbase",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "name": "Alan Sikora",
+      "email": "alansikora@gmail.com"
+    }
+  ],
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jamuhl/nodeEventStore.git"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">= v0.6.15"
+  },
+  "dependencies": {
+    "couchbase": "~1.2.0",
+    "tolerance": ">=1.0.0",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": ">= 0.0.1",
+    "expect.js": ">= 0.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
